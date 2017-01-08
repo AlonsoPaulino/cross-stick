@@ -1,0 +1,68 @@
+
+normal6.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+6_n1
+  rotate: false
+  xy: 1, 1
+  size: 74, 89
+  orig: 74, 89
+  offset: 0, 0
+  index: -1
+6_n2
+  rotate: false
+  xy: 77, 1
+  size: 74, 89
+  orig: 74, 89
+  offset: 0, 0
+  index: -1
+6_n3
+  rotate: false
+  xy: 153, 1
+  size: 74, 89
+  orig: 74, 89
+  offset: 0, 0
+  index: -1
+6_n4
+  rotate: false
+  xy: 229, 1
+  size: 74, 89
+  orig: 74, 89
+  offset: 0, 0
+  index: -1
+6_n5
+  rotate: false
+  xy: 305, 1
+  size: 74, 89
+  orig: 74, 89
+  offset: 0, 0
+  index: -1
+6_n6
+  rotate: false
+  xy: 381, 1
+  size: 74, 89
+  orig: 74, 89
+  offset: 0, 0
+  index: -1
+6_n7
+  rotate: false
+  xy: 457, 1
+  size: 74, 89
+  orig: 74, 89
+  offset: 0, 0
+  index: -1
+6_n8
+  rotate: false
+  xy: 533, 1
+  size: 74, 89
+  orig: 74, 89
+  offset: 0, 0
+  index: -1
+6_n9
+  rotate: false
+  xy: 609, 1
+  size: 74, 89
+  orig: 74, 89
+  offset: 0, 0
+  index: -1
