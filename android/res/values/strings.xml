@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
     <string name="app_name">StickHero</string>
     <string name="text_view">Example Banner</string>
-	<string name="app_url">https://play.google.com/store/apps/details?id=%1$s</string>
-	<string name="admob_banner_id"> ca-app-pub-5981684282074150/5547142028 </string>
+    <string name="app_url">https://play.google.com/store/apps/details?id=%1$s</string>
+    <string name="admob_banner_id"> ca-app-pub-5981684282074150/5547142028 </string>
     <string name="admob_interstitial_id"> ca-app-pub-5981684282074150/7023875223 </string>
 </resources>
