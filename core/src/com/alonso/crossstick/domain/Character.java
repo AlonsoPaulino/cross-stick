@@ -3,7 +3,7 @@ import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.Batch;
 import com.badlogic.gdx.graphics.g2d.TextureRegion;
-import com.alonso.crossstick.game.CrossStick;
+import com.alonso.crossstick.CrossStick;
 import com.alonso.crossstick.game.actors.Button;
 import com.alonso.crossstick.game.util.Util;
 

@@ -1,6 +1,6 @@
 package com.alonso.crossstick.game.actors;
 import com.badlogic.gdx.scenes.scene2d.actions.MoveByAction;
-import com.alonso.crossstick.game.CrossStick;
+import com.alonso.crossstick.CrossStick;
 
 public class Coin extends GenericActor{
 	

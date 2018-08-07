@@ -1,4 +1,4 @@
-package com.alonso.crossstick.game;
+package com.alonso.crossstick;
 
 import com.alonso.crossstick.domain.Player;
 import com.badlogic.gdx.Game;

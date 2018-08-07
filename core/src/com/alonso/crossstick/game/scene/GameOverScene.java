@@ -3,7 +3,7 @@ package com.alonso.crossstick.game.scene;
 import com.alonso.crossstick.domain.Player;
 import com.alonso.crossstick.util.TextLabel;
 import com.badlogic.gdx.graphics.g2d.BitmapFont;
-import com.alonso.crossstick.game.CrossStick;
+import com.alonso.crossstick.CrossStick;
 import com.alonso.crossstick.game.actors.Background;
 import com.alonso.crossstick.game.actors.Button;
 import com.alonso.crossstick.game.actors.Label;

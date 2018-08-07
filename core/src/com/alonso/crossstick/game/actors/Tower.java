@@ -2,7 +2,7 @@ package com.alonso.crossstick.game.actors;
 
 import com.badlogic.gdx.graphics.g2d.Batch;
 import com.badlogic.gdx.graphics.g2d.TextureRegion;
-import com.alonso.crossstick.game.CrossStick;
+import com.alonso.crossstick.CrossStick;
 import com.alonso.crossstick.game.util.Util;
 
 public class Tower extends GenericActor{

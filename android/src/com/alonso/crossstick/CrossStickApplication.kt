@@ -8,7 +8,6 @@ import android.view.View
 import android.view.Window
 import android.view.WindowManager
 import android.widget.RelativeLayout
-import com.alonso.crossstick.game.CrossStick
 import com.badlogic.gdx.backends.android.AndroidApplication
 
 /**

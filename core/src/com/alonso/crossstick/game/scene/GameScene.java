@@ -8,7 +8,7 @@ import com.badlogic.gdx.graphics.GL20;
 import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.scenes.scene2d.InputEvent;
 import com.badlogic.gdx.scenes.scene2d.utils.ClickListener;
-import com.alonso.crossstick.game.CrossStick;
+import com.alonso.crossstick.CrossStick;
 import com.alonso.crossstick.game.actors.Background;
 import com.alonso.crossstick.game.actors.Hero;
 import com.alonso.crossstick.game.actors.Bridge;

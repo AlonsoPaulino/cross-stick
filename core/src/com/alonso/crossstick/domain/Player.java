@@ -1,6 +1,6 @@
 package com.alonso.crossstick.domain;
 import com.badlogic.gdx.graphics.g2d.TextureRegion;
-import com.alonso.crossstick.game.CrossStick;
+import com.alonso.crossstick.CrossStick;
 
 public class Player {
 
