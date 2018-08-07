@@ -4,7 +4,7 @@ import com.badlogic.gdx.graphics.g2d.Batch;
 import com.badlogic.gdx.math.Interpolation;
 import com.badlogic.gdx.scenes.scene2d.actions.RotateToAction;
 import com.badlogic.gdx.scenes.scene2d.utils.TiledDrawable;
-import com.alonso.crossstick.game.StickHero;
+import com.alonso.crossstick.game.CrossStick;
 import com.alonso.crossstick.game.util.Util;
 
 public class Bridge extends GenericActor{
@@ -12,7 +12,7 @@ public class Bridge extends GenericActor{
 	private Integer current_state;
 	private TiledDrawable td;
 	
-	public Bridge(StickHero my_game){
+	public Bridge(CrossStick my_game){
 		super(my_game.resources.texture_bridge);
 		td = new TiledDrawable(texture_region);
 		this.current_state = Util.NORMAL_STATE;

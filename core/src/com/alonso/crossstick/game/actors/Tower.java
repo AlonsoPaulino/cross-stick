@@ -2,7 +2,7 @@ package com.alonso.crossstick.game.actors;
 
 import com.badlogic.gdx.graphics.g2d.Batch;
 import com.badlogic.gdx.graphics.g2d.TextureRegion;
-import com.alonso.crossstick.game.StickHero;
+import com.alonso.crossstick.game.CrossStick;
 import com.alonso.crossstick.game.util.Util;
 
 public class Tower extends GenericActor{
@@ -10,7 +10,7 @@ public class Tower extends GenericActor{
 	private TextureRegion texture_region_mid;
 	private boolean activate;
 	
-	public Tower(float x , float width, boolean activate, StickHero my_game){
+	public Tower(float x , float width, boolean activate, CrossStick my_game){
 		super(my_game.resources.texture_tower);
 		this.activate = activate;
 		if(activate)texture_region_mid = new TextureRegion(my_game.resources.texture_red);

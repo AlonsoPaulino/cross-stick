@@ -3,7 +3,7 @@ import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.Batch;
 import com.badlogic.gdx.graphics.g2d.TextureRegion;
-import com.alonso.crossstick.game.StickHero;
+import com.alonso.crossstick.game.CrossStick;
 import com.alonso.crossstick.game.actors.Button;
 import com.alonso.crossstick.game.util.Util;
 
@@ -11,11 +11,11 @@ public class Character extends Button {
 	
 	private TextureRegion price_character;
 	private int price;
-	private StickHero my_game;
+	private CrossStick my_game;
 	private boolean state;
 	private int index;
 	
-	public Character(StickHero my_game, float x, float y, int index){
+	public Character(CrossStick my_game, float x, float y, int index){
 		super(my_game.resources.texture_character[index], x, y);
 		this.my_game = my_game;
 		this.index = index;

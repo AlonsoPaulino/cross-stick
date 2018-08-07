@@ -3,14 +3,14 @@ package com.alonso.crossstick.game.scene;
 import com.alonso.crossstick.Model.Player;
 import com.alonso.crossstick.UtilActorLocator.TextLabel;
 import com.badlogic.gdx.graphics.g2d.BitmapFont;
-import com.alonso.crossstick.game.StickHero;
+import com.alonso.crossstick.game.CrossStick;
 import com.alonso.crossstick.game.actors.Background;
 import com.alonso.crossstick.game.actors.Button;
 import com.alonso.crossstick.game.actors.Label;
 
 public class GameOverScene extends GenericScreen{
 
-	private StickHero my_game;
+	private CrossStick my_game;
 	private Background backgound;
 	private Player player;
 	
@@ -29,7 +29,7 @@ public class GameOverScene extends GenericScreen{
 	private Button rate_us_button;
 	
 	
-	public GameOverScene(final StickHero my_game){
+	public GameOverScene(final CrossStick my_game){
 		this.my_game = my_game;
 		this.backgound = new Background(my_game, my_game.resources.texture_background_color, 0);
 		backgound.setSize(560, 970);
