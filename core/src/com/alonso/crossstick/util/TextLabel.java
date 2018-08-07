@@ -1,4 +1,4 @@
-package com.alonso.crossstick.UtilActorLocator;
+package com.alonso.crossstick.util;
 
 import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.graphics.g2d.BitmapFont;

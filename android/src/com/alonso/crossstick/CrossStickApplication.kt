@@ -11,6 +11,11 @@ import android.widget.RelativeLayout
 import com.alonso.crossstick.game.CrossStick
 import com.badlogic.gdx.backends.android.AndroidApplication
 
+/**
+ * @author Luis Alonso Paulino Flores <alonsopf1@gmail.com>
+ *
+ */
+
 class CrossStickApplication: AndroidApplication() {
 
     lateinit var game: CrossStick

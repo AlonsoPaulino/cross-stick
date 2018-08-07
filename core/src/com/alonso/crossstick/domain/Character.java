@@ -1,4 +1,4 @@
-package com.alonso.crossstick.Model;
+package com.alonso.crossstick.domain;
 import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.Batch;

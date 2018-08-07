@@ -1,7 +1,7 @@
 package com.alonso.crossstick.game.scene;
 
-import com.alonso.crossstick.Model.Player;
-import com.alonso.crossstick.UtilActorLocator.TextLabel;
+import com.alonso.crossstick.domain.Player;
+import com.alonso.crossstick.util.TextLabel;
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.audio.Sound;
 import com.badlogic.gdx.graphics.GL20;

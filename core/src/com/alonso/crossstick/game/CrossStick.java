@@ -1,6 +1,6 @@
 package com.alonso.crossstick.game;
 
-import com.alonso.crossstick.Model.Player;
+import com.alonso.crossstick.domain.Player;
 import com.badlogic.gdx.Game;
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.graphics.Texture;
