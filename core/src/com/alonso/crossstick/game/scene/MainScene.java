@@ -1,13 +1,13 @@
 package com.alonso.crossstick.game.scene;
 
-import com.alonso.crossstick.game.StickHero;
+import com.alonso.crossstick.game.CrossStick;
 import com.alonso.crossstick.game.actors.Background;
 import com.alonso.crossstick.game.actors.Button;
 import com.alonso.crossstick.game.actors.Label;
 
 public class MainScene extends GenericScreen{
 
-	private StickHero my_game;
+	private CrossStick my_game;
 	private Background background;
 	
 	private Button play_button;
@@ -22,7 +22,7 @@ public class MainScene extends GenericScreen{
 	private Label hero_init_texture;
 	//private TextLabel coins_points;
 
-	public MainScene(final StickHero my_game){
+	public MainScene(final CrossStick my_game){
 		super();
 		this.my_game = my_game;
 		

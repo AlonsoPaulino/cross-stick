@@ -11,7 +11,7 @@ import com.alonso.crossstick.game.util.Manager;
 import com.alonso.crossstick.game.util.Resources;
 import com.alonso.crossstick.game.util.Util;
 
-public class StickHero extends Game{
+public class CrossStick extends Game{
 
 	private GameScene game_screen;
 	private MainScene main_screen;

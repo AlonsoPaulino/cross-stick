@@ -1,10 +1,10 @@
 package com.alonso.crossstick.game.actors;
 import com.badlogic.gdx.scenes.scene2d.actions.MoveByAction;
-import com.alonso.crossstick.game.StickHero;
+import com.alonso.crossstick.game.CrossStick;
 
 public class Coin extends GenericActor{
 	
-	public Coin(float x, float y, StickHero my_game){
+	public Coin(float x, float y, CrossStick my_game){
 		super(my_game.resources.texture_coin);
 		this.setBounds(x, y, 20f, 20f);
 	}	

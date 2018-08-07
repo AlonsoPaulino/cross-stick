@@ -1,6 +1,6 @@
 package com.alonso.crossstick.game.actors;
 
-import com.alonso.crossstick.game.StickHero;
+import com.alonso.crossstick.game.CrossStick;
 import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.scenes.scene2d.actions.Actions;
 import com.badlogic.gdx.scenes.scene2d.actions.MoveToAction;
@@ -11,7 +11,7 @@ public class Background extends GenericActor{
 	float width;
 	float duration;
 
-	public Background(StickHero my_game, Texture texture, int state){
+	public Background(CrossStick my_game, Texture texture, int state){
 		super(texture);
 		width = getWidth();
 		setWidth(width + 5);
@@ -24,7 +24,7 @@ public class Background extends GenericActor{
 		}
 	}
 	
-	public Background(StickHero my_game, Texture texture, int state, float duration){
+	public Background(CrossStick my_game, Texture texture, int state, float duration){
 		super(texture);
 		this.duration = duration;
 		width = getWidth();

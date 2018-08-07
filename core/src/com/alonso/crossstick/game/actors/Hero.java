@@ -5,7 +5,7 @@ import com.badlogic.gdx.graphics.GL20;
 import com.badlogic.gdx.graphics.g2d.Animation;
 import com.badlogic.gdx.graphics.g2d.TextureRegion;
 import com.badlogic.gdx.scenes.scene2d.actions.MoveByAction;
-import com.alonso.crossstick.game.StickHero;
+import com.alonso.crossstick.game.CrossStick;
 import com.alonso.crossstick.game.util.Util;
 
 public class Hero extends GenericActor{
@@ -21,8 +21,8 @@ public class Hero extends GenericActor{
 	
 	private Animation current_animation;
 	
-	public Hero(final StickHero my_game, float x, float y, TextureRegion[] normal_animation, 
-			TextureRegion[] running_animation, float time_animation1, float time_animation2){
+	public Hero(final CrossStick my_game, float x, float y, TextureRegion[] normal_animation,
+                TextureRegion[] running_animation, float time_animation1, float time_animation2){
 		
 		super(normal_animation[0]);
 		this.orientation_y = 1;

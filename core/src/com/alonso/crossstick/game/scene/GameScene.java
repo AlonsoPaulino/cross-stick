@@ -8,9 +8,8 @@ import com.badlogic.gdx.graphics.GL20;
 import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.scenes.scene2d.InputEvent;
 import com.badlogic.gdx.scenes.scene2d.utils.ClickListener;
-import com.alonso.crossstick.game.StickHero;
+import com.alonso.crossstick.game.CrossStick;
 import com.alonso.crossstick.game.actors.Background;
-import com.alonso.crossstick.game.actors.Coin;
 import com.alonso.crossstick.game.actors.Hero;
 import com.alonso.crossstick.game.actors.Bridge;
 import com.alonso.crossstick.game.actors.Tower;
@@ -20,7 +19,7 @@ public class GameScene extends GenericScreen{
 
 	private float speed;
 	private Player player;
-	private StickHero my_game;
+	private CrossStick my_game;
 	private Hero hero;
 	private Bridge last_bridge;
 	private Bridge bridge;
@@ -47,7 +46,7 @@ public class GameScene extends GenericScreen{
 	//private TextLabel coins_points;
 	private TextLabel score_points;
 	
-	public GameScene(StickHero my_game, int character, Texture background_theme, Texture clouds_theme){
+	public GameScene(CrossStick my_game, int character, Texture background_theme, Texture clouds_theme){
 		this.my_game = my_game;
 		
 		this.hit_sound = Gdx.audio.newSound(Gdx.files.internal("sounds/hit.mp3"));

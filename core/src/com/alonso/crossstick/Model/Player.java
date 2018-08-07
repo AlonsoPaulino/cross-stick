@@ -1,15 +1,15 @@
 package com.alonso.crossstick.Model;
 import com.badlogic.gdx.graphics.g2d.TextureRegion;
-import com.alonso.crossstick.game.StickHero;
+import com.alonso.crossstick.game.CrossStick;
 
 public class Player {
 
 	private Integer points;
 	private TextureRegion character_selected;
 	private int character_index;
-	private StickHero my_game;
+	private CrossStick my_game;
 	
-	public Player(StickHero my_game, int index){
+	public Player(CrossStick my_game, int index){
 		this.my_game = my_game;
 		character_index = index;
 		character_selected = new TextureRegion(my_game.resources.texture_character[character_index]);
