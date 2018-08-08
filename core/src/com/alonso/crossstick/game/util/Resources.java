@@ -71,7 +71,6 @@ public class Resources {
 		manager.loadTexture("clouds2.png");
 		manager.loadTexture("background_options.png");
 		manager.loadTexture("fondo_construccion.jpg");
-		manager.loadTexture("rojo.png");
 		manager.loadTexture("home_button.png");
 		manager.loadTexture("block_character.png");
 		manager.loadTexture("title_label.png");
@@ -94,7 +93,7 @@ public class Resources {
 			manager.loadTextureAtlas("sprites_normal/normal"+String.valueOf(i)+".atlas");
 			manager.loadTextureAtlas("sprites_playing/playing"+String.valueOf(i)+".atlas");
 		}
-		
+
 		while(!manager.update());
 		
 		for(int i = 1; i < 9; i++){
